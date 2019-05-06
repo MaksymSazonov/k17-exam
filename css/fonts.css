@@ -1,0 +1,17 @@
+/* EuropeExt bold*/
+@font-face {
+    font-family: 'EuropeExtBold';
+    src: url('fonts/EuropeExtBold.woff2') format('woff2'),
+        url('fonts/EuropeExtBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+/* EuropeExt normal*/
+@font-face {
+    font-family: 'EuropeExt';
+    src: url('fonts/EuropeExtNormal.woff2') format('woff2'),
+         url('fonts/EuropeExtNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
