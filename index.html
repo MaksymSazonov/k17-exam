@@ -2,50 +2,47 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<title>k17-exam</title>
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/fresco.css">
 	<link rel="stylesheet" href="slick/slick-theme.css">
 	<link rel="stylesheet" href="slick/slick.css">
 	<link rel="stylesheet" href="css/swiper.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>k17-exam</title>
 </head>
 <body>
-	<!-- Меню сайта-->
-	<header>
-		<div class="header-content">
-			<div class="header-menu">
-				<nav>
-					<ul class="header-ul">
-						<li><a href="#">ГЛАВНАЯ</a></li>
-						<li><a href="#">О КОМПАНИИ</a></li>
-						<li><a href="#">ВАКАНСИИ</a></li>
-						<li><a href="#">ПРОДУКЦИЯ</a></li>
-						<li><a href="#">ФОТОГАЛЕРЕЯ</a></li>
-						<li><a href="#">НОВОСТИ</a></li>
-						<li><a href="#">СТАТЬИ</a></li>
-						<li><a href="#">КОНТАКТЫ</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
+<!-- Меню сайта-->
+<header class="header">
+	<div class="content">
+		<ul class="ul">
+			<li class="li-1"><a href="#" class="is-active">Главная</a></li>
+			<li><a href="#">о компании</a></li>
+			<li><a href="#">Вакансии</a></li>
+			<li><a href="#">Продукция</a></li>
+			<li><a href="#">Фотогалерея</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Статьи</a></li>
+			<li class="li-8"><a href="#">Контакты</a></li>
+		</ul>
+	</div>
+</header>
 	<!-- Блок со слайдером -->
 	<div class="slider-back">
-		<div class="slider-content">
-			 <span><a href="#" target="_blank"><img class="logo_block-1" src="images/logo_block-1.png" alt=""></a></span>
-			<span class="sl-text">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</span>
-			<span><a href="#" target="_blank"><img class="in_block-1" src="images/in_block-1.png" alt=""></a></span>
-			<span><a href="#" target="_blank"><img class="vk_block-1" src="images/vk_block-1.png" alt=""></a></span>
+		<div class="content">
+			 <a class="logo_block-1" href="#" target="_blank"><img src="images/logo_block-1.png" alt=""></a>
+			<span class="sl-text">Мы в социальных сетях</span>
+			<a class="in_vk" href="#" target="_blank"><img class="in_block-1" src="images/in_block-1.png" alt=""></a>
+			<a class="in_vk" href="#" target="_blank"><img class="vk_block-1" src="images/vk_block-1.png" alt=""></a>
 			<span class="sl-adres">
 				<a href="tel:+380552314410">тел:+38(0552)314-410,</a>
-				<a href="+3805523144403">314-403;</a>
+				<a href="tel:3144403">314-403;</a>
 				<a href="tel:+380552359214">факс:+38(0552)359-214</a><br/>
 				<a href="mailto:info@penobard.com">e-mail:info@penoboard.com</a>
 			</span>
-			<span class="sl-inp">
-				<input type="search">
+			<form class="sl-inp">
+				<input type="search" name="search">
 				<span class="sl-subm"><input type="submit"></span>
-			</span>
+			</form>
 			<!-- swiper -->
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
@@ -62,21 +59,21 @@
 				<div class="swiper-button-prev but-left"></div>
 			</div>
 			<div class="sl-block"></div>
-			<span class="sl-text_1">СЕГОДНЯ ИННОВАЦИЯ - <br/>ЗАВТРА НЕОБХОДИМОСТЬ</span>
-			<span class="sl-text_2">ЭНЕРГОСБЕРЕЖЕНИЕ НОВОГО ПОКОЛЕНИЯ</span>
-			<span><img class="sl-shadow" src="images/bg_sl-shadow.png" alt=""></span>
+			<span class="sl-text_1">Сегодня инновация - <br/>Завтра необходимость</span>
+			<span class="sl-text_2">Энергосбережение нового поколения</span>
+			<div  class="sl-shadow"><img src="images/bg_sl-shadow.png" alt=""></div>
 		</div>
 	</div>
 	<!-- Блок с видео -->	
 	<div class="block-2__back">
-		<div class="block-2__content">
-			<span><img class="block-2__logo" src="images/logo_block-2.png" alt=""></span>
-			<span class="block-2__text">ЭКСТРУДИРОВАННЫЙ ПЕНОПОЛИСТИРОЛ</span>
+		<div class="content">
+			<div  class="block-2__logo"><img src="images/logo_block-2.png" alt=""></div>
+			<div class="block-2__text">Экструдированный пенополистирол</div>
 			<div class="block-2__video">
-				<iframe  width="574" height="318"  name="youtube"
-		        src="https://www.youtube.com/embed/gQPM9IuNv8k" frameborder="0"
+				<iframe   name="youtube" class="iframe"
+		        src="https://www.youtube.com/embed/gQPM9IuNv8k"
 		        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		        <span><img class="bg_block-2_shadow" src="images/bg_block-2_shadow.png" alt=""></span>
+		        <span class="bg_block-2_shadow"><img src="images/bg_block-2_shadow.png" alt=""></span>
 	     	</div>
 			<div class="block-2__text-content">
 				<p>     Многолетний  опыт применения  экструдированного  пенополистирола в различных отраслях  строительства доказывает<br/> 
@@ -88,8 +85,9 @@
 					               							      процессе взаимодействия  с нами.</p>
             </div>
 		    <div class="block-2__text-content__more">
-				<button><a href="#text">УЗНАТЬ ПОДРОБНЕЕ</a></button>
-				<div id="text" tabindex="0">
+
+				<a href="#more" class="button">Узнать подробнее</a>
+				<div id="more" tabindex="0">
 					<p>Многолетний опыт применения экструдированного пенополистирола в различных отраслях строительства доказывает высокую эффективность его использования.
 					   Наша компания производит экструдированный пенополистирол на высококачественном европейском оборудовании, соблюдая мировые стандарты качества. 
 					</p>
@@ -113,98 +111,98 @@
 	</div>
 	<!-- Блок "Cфера Применения"-->		
 	<div class="block-3__back">
-		<div class="block-3__content">
-			<span class="block-3__text">СФЕРА ПРИМЕНЕНИЯ</span>
+		<div class="content">
+			<div class="block-3__text">Сфера применения</div>
 			<!-- Application -->
 			<div class="block-3__left-bg">
 				<!-- Затемнённый фон -->
-				<div class="block-3__left-bg-2">
+				<div class="block-3__bg-2">
 					<!-- Заголовок -->
-					<div class="block-3__left-title">
-						<span class="block-3__left-title__text">ГРАЖДАНСКОЕ СТРОИТЕЛЬСТВО</span>
+					<div class="block-3__title">
+						<span class="block-3__left-title__text">Гражданское строительство</span>
 					</div>
 					<!-- Списки -->
 					<div class="block-3__left-list">
 						<ul class="ul-1">
-							<li></li>
-							<li></li>
-							<li>ЖИЛЫЕ ДОМА</li>
+							<li class="li-1"></li>
+							<li class="li-2"></li>
+							<li class="li-3">Жилые дома</li>
 						</ul>
 						<ul class="ul-2">
-							<li></li>
-							<li></li>
-							<li>ОФИСНЫЕ ЗДАНИЯ</li>
+							<li class="li-1"></li>
+							<li class="li-2"></li>
+							<li class="li-3">Офисные здания</li>
 						</ul>
 						<ul class="ul-3">
-							<li></li>
-							<li></li>
-							<li>ТОРГОВО - РАЗВЛЕКАТЕЛЬНЫЕ КОМПЛЕКСЫ</li>
+							<li class="li-1"></li>
+							<li class="li-2"></li>
+							<li class="li-3">Торгово - развлекательные комплексы</li>
 						</ul>
 					</div>
-					<div class="block-3__left-logo-bg">
+					<div class="block-3__logo-bg">
 						<div class="block-3__left-logo">
-							<span class="block-3__left-logo__text">NOVABOARD</span>
+							<span class="block-3__left-logo__text">Novaboard</span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="block-3__right-bg">
-				<div class="block-3__right-bg-2">
-					<div class="block-3__right-title">
-					<span class="block-3__right-title__text">ПРОМЫШЛЕННОЕ СТРОИТЕЛЬСТВО</span>
+				<div class="block-3__bg-2">
+					<div class="block-3__title">
+					<span class="block-3__right-title__text">Промышленное строительство</span>
 					</div>
 					<div class="block-3__right-list">
 						<ul class="ul-1">
-							<li>СПОРТИВНЫЕ СООРУЖЕНИЯ - ЛЕДОВЫЕ АРЕНЫ</li>
-							<li></li>
-							<li></li>
+							<li class="li-1">Спортивные сооружения - ледовые арены</li>
+							<li class="li-2"></li>
+							<li class="li-3"></li>
 						</ul>
 						<ul class="ul-2">
-							<li>АНГАРЫ И СКЛАДЫ</li>
-							<li></li>
-							<li></li>
+							<li class="li-1">Ангары и склады</li>
+							<li class="li-2"></li>
+							<li class="li-3"></li>
 						</ul>
 						<ul class="ul-3">
-							<li>ЗАВОДЫ И ФАБРИКИ</li>
-							<li></li>
-							<li></li>
+							<li class="li-1">Заводы и фабрики</li>
+							<li class="li-2"></li>
+							<li class="li-3"></li>
 						</ul>
 					</div>
-					<div class="block-3__right-logo-bg">
+					<div class="block-3__logo-bg">
 						<div class="block-3__right-logo">
-							<span class="block-3__right-logo__text">NOVABOARD</span>
+							<span class="block-3__right-logo__text">Novaboard</span>
 						</div>
 					</div>
 				</div>	
 			</div>
 			<!-- The list of "categories" (6 diamonds) - static blocks -->
 			<div class="block-3__static-block">
-				<ul>
-					<li>
-						<div class="block-3__static-block__layer-1"><img src="images/static__layer-1.png" alt=""></div>
-						<p class="block-3__static__layer-text-1">БАЛКОНЫ И <br/>  ЛОДЖИИ</p>
+				<ul class="ul">
+					<li class="li">
+						<div class="block-3__static-block__layer"><img class="block-3__static-block__layer-1" src="images/static__layer-1.png" alt=""></div>
+						<p class="block-3__static__layer-text">Балконы и <br/>  лоджии</p>
 					</li>
-					<li>
-						<div class="block-3__static-block__layer-2"><img src="images/static__layer-2.png" alt=""></div>
-						<p class="block-3__static__layer-text-2">СТЕНЫ И <br/> ФАСАДЫ</p>
+					<li class="li">
+						<div class="block-3__static-block__layer"><img class="block-3__static-block__layer-2" src="images/static__layer-2.png" alt=""></div>
+						<p class="block-3__static__layer-text">Стены и <br/> фасады</p>
 					</li>
-					<li>
-						<div class="block-3__static-block__layer-3"><img src="images/static__layer-3.png" alt=""></div>
-						<p class="block-3__static__layer-text-3">ПЕРИМЕТР ДОМА <br/> И ЦОКОЛЬ</p>
+					<li class="li">
+						<div class="block-3__static-block__layer"><img class="block-3__static-block__layer-3" src="images/static__layer-3.png" alt=""></div>
+						<p class="block-3__static__layer-text">Периметр дома <br/> и цоколь</p>
 					</li>
-					<li>
-						<div class="block-3__static-block__layer-4"><img src="images/static__layer-4.png" alt=""></div>
-						<p class="block-3__static__layer-text-4">ПЛОСКАЯ И <br/> СКАТНАЯ КРОВЛЯ</p>
+					<li class="li">
+						<div class="block-3__static-block__layer"><img class="block-3__static-block__layer-4" src="images/static__layer-4.png" alt=""></div>
+						<p class="block-3__static__layer-text">Плоская и <br/> Скатная кровля</p>
 					</li>
-					<li>
-						<div class="block-3__static-block__layer-5"><img src="images/static__layer-5.png" alt=""></div>
-						<p class="block-3__static__layer-text-5">ФУНДАМЕНТ И <br/> МОСТИКИ ХОЛОДА</p>
+					<li class="li">
+						<div class="block-3__static-block__layer"><img class="block-3__static-block__layer-5" src="images/static__layer-5.png" alt=""></div>
+						<p class="block-3__static__layer-text">Фундамент и <br/> Мостики холода</p>
 					</li>
-					<li>
-						<div class="block-3__static-block__layer-6"><img src="images/static__layer-6.png" alt=""></div>
-						<div class="block-3__static__layer-text-6">
-							ПОЛЫ И <br/> ПОТОЛКИ
-						</div>
+					<li class="li">
+						<div class="block-3__static-block__layer"><img class="block-3__static-block__layer-6" src="images/static__layer-6.png" alt=""></div>
+						<p class="block-3__static__layer-text">
+							Полы и <br/> потолки
+						</p>
 					</li>
 				</ul>	
 			</div>
@@ -212,23 +210,23 @@
 	</div>
 	<!-- block-4 "TECHNICAL CHARACTERISTICS" -->
 	<div class="ch-back">
-		<div class="ch-content">
+		<div class="content">
 			<div class="ch-border">
 				<div class="ch-logo"><img src="images/ch-logo.png" alt=""></div>
 				
-				<table>
-					<caption>ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</caption>
+				<table class="table">
+					<caption class="caption">Технические характеристики</caption>
 					<tr>
-						<th>ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</th>
-						<th>НОРМАТИВ</th>
+						<th class="th-1">технические характеристики</th>
+						<th class="th-2">норматив</th>
 						<th>ПСБ - 20</th>
 						<th>ПСБ - 30</th>
 						<th>ПСБ - 40</th>
 						<th>ПСБ - 50</th>
-						<th>ПСБ - 60-120</th>
+						<th class="th-7">ПСБ - 60-120</th>
 					</tr>
 					<tr>
-						<td>Плотнось кг/м3</td>
+						<td class="td-1">Плотнось кг/м3</td>
 						<td>ГОСТ 15588-86</td>
 						<td>30-32</td>
 						<td>30-32</td>
@@ -237,7 +235,7 @@
 						<td>30-32</td>
 					</tr>
 					<tr>
-						<td>Теплопроводность при 25&deg;C (&lambda;<sub>25</sub>) Bт/мK</td>
+						<td class="td-1">Теплопроводность при 25&deg;C (&lambda;<sub>25</sub>) Bт/мK</td>
 						<td>ГОСТ 7076-99</td>
 						<td>0,03</td>
 						<td>0,03</td>
@@ -245,8 +243,9 @@
 						<td>0,03</td>
 						<td>0,03</td>
 					</tr>
+				
 					<tr>
-						<td>Теплопроводность (&lambda;<sub>А</sub>) Вт/мK</td>
+						<td class="td-1">Теплопроводность (&lambda;<sub>А</sub>) Вт/мK</td>
 						<td>ГОСТ 7076-99</td>
 						<td>0,031</td>
 						<td>0,031</td>
@@ -255,7 +254,7 @@
 						<td>0,031</td>
 					</tr>
 					<tr>
-						<td>Теплопроводность (&lambda;<sub>Б</sub>) Вт/мК</td>
+						<td class="td-1">Теплопроводность (&lambda;<sub>Б</sub>) Вт/мК</td>
 						<td>ГОСТ 7076-99</td>
 						<td>0,032</td>
 						<td>0,032</td>
@@ -264,7 +263,7 @@
 						<td>0,032</td>
 					</tr>
 					<tr>
-						<td>Прочность на сжатие 10% деформации, МПа</td>
+						<td class="td-1">Прочность на сжатие 10% деформации, МПа</td>
 						<td>ГОСТ 15588-86</td>
 						<td>0,2</td>
 						<td>0,25</td>
@@ -273,7 +272,7 @@
 						<td>0,6</td>
 					</tr>
 					<tr>
-						<td>Предел прочности при изгибе, МПа</td>
+						<td class="td-1">Предел прочности при изгибе, МПа</td>
 						<td>ГОСТ 15588-86</td>
 						<td>0,25</td>
 						<td>0,4</td>
@@ -282,7 +281,7 @@
 						<td>0,4-0,7</td>
 					</tr>
 					<tr>
-						<td>Модуль упругости, МПа</td>
+						<td class="td-1">Модуль упругости, МПа</td>
 						<td></td>
 						<td>15</td>
 						<td>15</td>
@@ -291,7 +290,7 @@
 						<td>18</td>
 					</tr>
 					<tr>
-						<td>Водопоглощение за 24 часа, % по объему</td>
+						<td class="td-1">Водопоглощение за 24 часа, % по объему</td>
 						<td>ГОСТ 15588-86</td>
 						<td>0,4</td>
 						<td>0,4</td>
@@ -300,7 +299,7 @@
 						<td>0,4</td>
 					</tr>
 					<tr>
-						<td>Паропроницаемость (&mu;) мг/м-ч Па</td>
+						<td class="td-1">Паропроницаемость (&mu;) мг/м-ч Па</td>
 						<td>ГОСТ 25898-83</td>
 						<td>0,008</td>
 						<td>0,007</td>
@@ -309,7 +308,7 @@
 						<td>0,008</td>
 					</tr>
 					<tr>
-						<td>Капилярное увлажнение</td>
+						<td class="td-1">Капилярное увлажнение</td>
 						<td></td>
 						<td>0</td>
 						<td>0</td>
@@ -318,7 +317,7 @@
 						<td>0</td>
 					</tr>
 					<tr>
-						<td>Коэфициент линейного теплового расширения</td>
+						<td class="td-1">Коэфициент линейного теплового расширения</td>
 						<td></td>
 						<td>7х10-5</td>
 						<td>7х10-5</td>
@@ -327,7 +326,7 @@
 						<td>7х10-5</td>
 					</tr>
 					<tr>
-						<td>Пожарные характеристик</td>
+						<td class="td-1">Пожарные характеристик</td>
 						<td>ГОСТ 30244-94</td>
 						<td>Г1</td>
 						<td>Г1</td>
@@ -336,7 +335,7 @@
 						<td>Г1</td>
 					</tr>
 					<tr>
-						<td>Температура приминения, &deg;С</td>
+						<td class="td-1">Температура приминения, &deg;С</td>
 						<td></td>
 						<td>-50...+75</td>
 						<td>-50...+75</td>
@@ -345,76 +344,76 @@
 						<td>-50...+75</td>
 					</tr>
 				</table>
-				<div class="bg_ch-shadow"><img src="images/bg_ch-shadow.png" alt=""></div>
+				<div class="bg_ch-shadow"><img class="bg_ch-shadow" src="images/bg_ch-shadow.png" alt=""></div>
 			</div>	
 		</div>
 	</div>
 	<!-- BLOCK "WHAT TASKS ARE SOLVED" -->
 	<div class="block-5__back">
-		<div class="block-5__content">
-			<table>
-				<caption>КАКИЕ ЗАДАЧИ РЕШАЕТ?</caption>
+		<div class="content">
+			<table class="table">
+				<caption class="caption">Какие задачи решает?</caption>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><p>Потери тепла</p></td>
-					<td></td>
-					<td><p>Высокая теплоизоляция, эффективность в суровых погодных условиях.</p></td>
-					<td></td>
-					<td></td>
+					<td class="td-1"></td>
+					<td class="td-2"></td>
+					<td class="td-3"></td>
+					<td class="td-4"><p>Потери тепла</p></td>
+					<td class="td-5"></td>
+					<td class="td-6"><p>Высокая теплоизоляция, эффективность в суровых погодных условиях.</p></td>
+					<td class="td-7"></td>
+					<td class="td-8"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><p>Проникновение шума</p></td>
-					<td></td>
-					<td><p>Индекс снижения приведенного уровня ударного шума — 25 Дб.</p></td>
-					<td></td>
-					<td></td>
+					<td class="td-1"></td>
+					<td class="td-2"></td>
+					<td class="td-3"></td>
+					<td class="td-4"><p>Проникновение шума</p></td>
+					<td class="td-5"></td>
+					<td class="td-6"><p>Индекс снижения приведенного уровня ударного шума — 25 Дб.</p></td>
+					<td class="td-7"></td>
+					<td class="td-8"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><p>Грибок, сырость</td>
-					<td></td>
-					<td><p>Гидроизоляционные свойства. Низкое влагопоглощение – 0,1%</p></td>
-					<td></td>
-					<td></td>
+					<td class="td-1"></td>
+					<td class="td-2"></td>
+					<td class="td-3"></td>
+					<td class="td-4"><p>Грибок, сырость</td>
+					<td class="td-5"></td>
+					<td class="td-6"><p>Гидроизоляционные свойства. Низкое влагопоглощение – 0,1%</p></td>
+					<td class="td-7"></td>
+					<td class="td-8"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><p>Выделение вредных веществ</td>
-					<td></td>
-					<td><p><p>Благодаря радикальной полимеризации стирола PENOBOARD не токсичен, биологически нейтрален, отвечает высоким экологическим
+					<td class="td-1"></td>
+					<td class="td-2"></td>
+					<td class="td-3"></td>
+					<td class="td-4"><p>Выделение вредных веществ</td>
+					<td class="td-5"></td>
+					<td class="td-6"><p>Благодаря радикальной полимеризации стирола PENOBOARD не токсичен, биологически нейтрален, отвечает высоким экологическим
           стандартам.</p></td>
-					<td></td>
-					<td></td>
+					<td class="td-7"></td>
+					<td class="td-8"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><p>Расточительность</p></td>
-					<td></td>
-					<td><p>В масштабах государства – снижение энергоемкости производства и экономия традиционных ресурсов, в масштабах каждого
+					<td class="td-1"></td>
+					<td class="td-2"></td>
+					<td class="td-3"></td>
+					<td class="td-4"><p>Расточительность</p></td>
+					<td class="td-5"></td>
+					<td class="td-6"><p>В масштабах государства – снижение энергоемкости производства и экономия традиционных ресурсов, в масштабах каждого
           отдельного дома – сбережение тепла и экологии помещений, снижение трат на отоплении.</p></td>
-					<td></td>
-					<td></td>
+					<td class="td-7"></td>
+					<td class="td-8"></td>
 				</tr>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td><p>Пожароопасность</p></td>
-					<td></td>
-					<td><p>Пожаробезопасность – Г1. PENOBOARD не поддерживает горение после прекращения контакта с открытым огнем.</p></td>
-					<td></td>
-					<td></td>
+					<td class="td-1"></td>
+					<td class="td-2"></td>
+					<td class="td-3"></td>
+					<td class="td-4"><p>Пожароопасность</p></td>
+					<td class="td-5"></td>
+					<td class="td-6"><p>Пожаробезопасность – Г1. PENOBOARD не поддерживает горение после прекращения контакта с открытым огнем.</p></td>
+					<td class="td-7"></td>
+					<td class="td-8"></td>
 				</tr>
 			</table>
 		</div>
@@ -422,91 +421,100 @@
 	<!-- CERTIFICATE UNIT -->	
 	<div class="certificate">
 		<div class="certificate-logo"><img src="images/ch-logo.png" alt=" "></div>
-		<div class="certificate-text">СЕРТИФИКАТЫ КАЧЕСТВА И ПРЕМИИ</div>
+		<div class="certificate-text">Сертификаты качества и премии</div>
 		<div class="certificate__sl">
-			 <div class="certificate_items">
-				<a href="images/certificate-1.png" data-fresco-group="certificate" class="fresco">
-					<img src="images/certificate-1.png" alt=" ">
+			<div class="сertificate_img">
+				<a href="images/layer-1.png" data-fresco-group="certificate" class="fresco">
+					<img  src="images/certificate-1.png" alt=" ">
 				</a>
-			</div> 
-			<div class="сertificate_items">
-				<a href="images/certificate-2.png" data-fresco-group="certificate" class="fresco">
+			</div>
+			<div class="сertificate_img">
+				<a href="images/layer-3.png" data-fresco-group="certificate" class="fresco">
 					<img  src="images/certificate-2.png" alt=" ">
 				</a>
 			</div>
 			<div class="сertificate_img">
-				<a href="images/certificate-3.png" data-fresco-group="certificate" class="fresco">
+				<a href="images/layer-4.png" data-fresco-group="certificate" class="fresco">
 					<img  src="images/certificate-3.png" alt=" ">
 				</a>
 			</div>
 			<div class="сertificate_img">
-				<a href="images/certificate-4.png" data-fresco-group="certificate" class="fresco">
+				<a href="images/layer-5.png" data-fresco-group="certificate" class="fresco">
 					<img src="images/certificate-4.png" alt=" ">
 				</a>
 			</div>
 			<div class="сertificate_img">
-				<a href="images/certificate-5.png" data-fresco-group="certificate" class="fresco">
+				<a href="images/layer-1.png" data-fresco-group="certificate" class="fresco">
 					<img src="images/certificate-5.png" alt=" ">
 				</a>
 			</div>
 			<div class="сertificate_img">
-				<a href="images/certificate-6.png" data-fresco-group="certificate" class="fresco">
+				<a href="images/layer-2.png" data-fresco-group="certificate" class="fresco">
 					<img src="images/certificate-6.png" alt=" ">
 				</a>
 			</div>
 			<div class="сertificate_img">
-				<a href="images/certificate-7.png" data-fresco-group="certificate" class="fresco">
+				<a href="images/Layer-3.png" data-fresco-group="certificate" class="fresco">
 					<img src="images/certificate-7.png" alt=" ">
 				</a>
 			</div>
 			<div class="сertificate_img">
-				<a href="images/certificate-8.png" data-fresco-group="certificate" class="fresco">
+				<a href="images/Layer-4.png" data-fresco-group="certificate" class="fresco">
 					<img  src="images/certificate-8.png" alt=" ">
 				</a>
 			</div>
 			<div class="сertificate_img">
-				<a href="images/certificate-9.png" data-fresco-group="certificate" class="fresco">
+				<a href="images/Layer-5.png" data-fresco-group="certificate" class="fresco">
 					<img  src="images/certificate-9.png" alt=" ">
 				</a>
 			</div> 
 		</div>
-		<div class="certificate-premium"><p>ПРЕМИЯ:<br/> 100 ЛУЧШИХ ТОВАРОВ УКРАИНЫ 2010 и 2011</p>
+		<div class="certificate-premium"><p>Премия:<br/> 100 лучших товаров украины  2010 <small>и</small> 2011</p>
 			<div class="certificate-logo-konkurs"><img  src="images/logo-konkurs.png" alt=" "></div>
 		</div>
 	</div>
 
 	<!-- CONTACT UNIT -->
-	<div class="contact">
-		<div class="cont-text">
-			<p class="cont-text-1">КОНТАКТЫ</p>
-			<p class="cont-text-2">ООО «Производственно коммерческая фирма «Элит Пласт»</p>
-			<p class="cont-text-3">73000, Украина, г.Херсон, ул Советская, 41-А</p>
+	<div class="content">
+		<div class="contact">
+			<div class="cont-text">
+				<p class="cont-text-1">Контакты</p>
+				<p class="cont-text-2">ООО «Производственно коммерческая фирма «Элит Пласт»</p>
+				<p class="cont-text-3">73000, Украина, г.Херсон, ул Советская, 41-А</p>
+			</div>
+			<span class="cont-adres">
+				<a href="tel:+380552123456">тел:+38(0552)123-456,</a>
+				<a href="tel:789403">789-403;</a>
+				<a href="tel:+380552359214">факс:+38(0552)123-214</a><br/>
+				<a href="mailto:info@novaboard.com">e-mail:info@novaboard.com</a>
+			</span>
 		</div>
-		<span class="cont-adres">
-			<a href="tel:+380552123456">тел:+38(0552)123-456,</a>
-			<a href="+380552789403">789-403;</a>
-			<a href="tel:+380552359214">факс:+38(0552)123-214</a><br/>
-			<a href="mailto:info@novaboard.com">e-mail:info@novaboard.com</a>
-		</span>
 	</div>
+	
 	<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2739.606478827618!2d32.603036!3d46.634536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41ac7ccafaacf%3A0x114f2cc2fc25fb82!2z0YPQuy4g0K_RgNC-0YHQu9Cw0LLQsCDQnNGD0LTRgNC-0LPQviwgNDEsINCl0LXRgNGB0L7QvSwg0KXQtdGA0YHQvtC90YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDczMDA5!5e0!3m2!1sru!2sua!4v1556647808542!5m2!1sru!2sua"  frameborder="0" style="border:0" allowfullscreen></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2739.606478827618!2d32.603036!3d46.634536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41ac7ccafaacf%3A0x114f2cc2fc25fb82!2z0YPQuy4g0K_RgNC-0YHQu9Cw0LLQsCDQnNGD0LTRgNC-0LPQviwgNDEsINCl0LXRgNGB0L7QvSwg0KXQtdGA0YHQvtC90YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDczMDA5!5e0!3m2!1sru!2sua!4v1556647808542!5m2!1sru!2sua"    class="iframe" allowfullscreen></iframe>
 	</div>
-	<footer>
-		<div class="NOVABOARD-back">
-			<div class="logo-footer">
-				 <a href="#" target="_blank"><div class="logo-footer-2"><img src="images/logo-footer-2.png" alt=""></div></a>
+	<footer class="footer">
+		<div class="novaboard-back">
+			<div class="footer-box">
+				 <div class="logo-footer-box">
+				 	<a class="logo-footer-box" href="#" target="_blank"><img class="img" src="images/logo-footer-2.png" alt=""></a>
+				 </div>
 				 <p class="logo-footer_text">2015 &copy;</p>
-				 <p class="text_footer">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</p>
-				 <div class="in_footer"><a href="#" target="_blank" class="in_footer"><img src="images/in_footer.png" alt=""></a></div>
-				 <div class="vk_footer"><a href="#" target="_blank" class="vk_footer"><img src="images/vk_footer.png" alt=""></a></div>
-				 <div class="Development"><a href="#" target="_blank" class="Development">РАЗРАБОТКА САЙТА - СТУДИЯ WEZOM</a></div>
+				 <p class="text_footer">Мы в социальных сетях</p>
+				 <div class="in-vk_footer-box">
+				 	<a class="in_vk" href="#" target="_blank" ><img class="in_footer" src="images/in_footer.png" alt=""></a>
+				    <a class="in_vk" href="#" target="_blank"><img  class="vk_footer" src="images/vk_footer.png" alt=""></a>
+				</div>
+				<div class="development">
+					<a href="#" target="_blank" class="development">Разработка сайта &mdash; студия wezom</a>
+				</div>
 			</div>
 		</div>
 
 	</footer>
 	<script src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script  src="slick/slick.min.js"></script>
 	<script src="js/fresco.js"></script>
 	<script src="js/swiper.js"></script>
 	<script src="js/index.js"></script>
