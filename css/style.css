@@ -571,6 +571,7 @@ body {
   padding: 0;
   padding-left: 32px;
   padding-top: 53px;
+  padding-bottom: 53px;
   font-size: 0;
 }
 .block-3__static-block .ul .li:nth-child(even) {
@@ -650,7 +651,6 @@ body {
 .ch-border  {
   width: 1211px;
   margin: 0 auto;
-  margin-top:56px;
   background-color: rgba(255, 255, 255, 0.6);
   border: 3px solid #d5dfec;
   padding-top: 45px;
