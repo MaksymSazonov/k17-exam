@@ -1,4 +1,5 @@
 body {
+  /*width: 1920px;*/
   margin: 0;
   padding: 0;
 }
@@ -65,6 +66,7 @@ body {
   width: 100%;
   height: auto;
   background: url(images/bg_block-1.png) no-repeat;
+  /*background-position: center;*/
   background-position-y: -28px;
   background-position-x: 0px;
 }
@@ -226,6 +228,7 @@ body {
   width: 100%;
   height: auto;
   background: url(images/bg_block-2.png) no-repeat;
+  /*background-position: center;*/
   background-position-x: 5px;
 }
 .block-2__logo{
@@ -236,7 +239,6 @@ body {
   padding-top: 69px;
   padding-left: 6px;
 }
-
 .block-2__text {
   font-family: EuropeExt, sans-serif;
   font-size: 30px;
@@ -349,6 +351,7 @@ body {
   width: 100%;
   height: auto;
   background: url(images/bg_block-3.png) no-repeat;
+  background-position: center;
   position: relative;
   text-align: center;
   background-position-y: -56px;
@@ -645,7 +648,8 @@ body {
   width: 100%;
   height: auto;
   background: url(images/ch__back.png) no-repeat;
-  background-position-y: -3px;
+  /*background-position: center;*/
+  background-position-y: 0;
   background-position-x: -17px;
 }
 .ch-border  {
@@ -653,7 +657,7 @@ body {
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.6);
   border: 3px solid #d5dfec;
-  padding-top: 45px;
+  padding-top: 49px;
   position: relative;
   left: 9px;
 }
@@ -738,6 +742,7 @@ body {
   width: 100%;
   height: auto;
   background: url(images/bg_block-5.png) no-repeat;
+  /*background-position: center;*/
   background-position-x: -294px;
   background-position-y: 14px;
 }
@@ -832,16 +837,13 @@ body {
   background-color: rgba(1, 152, 59, 0.2);
 }
 /*CERTIFICATE UNIT*/
-.certificate {
-  max-width: 950px;
-  height: auto;
-  margin: 0 auto;
-}
+
 .certificate-logo {
-  width:100%;
+  width: 100%;
   height: auto;
   text-align: center;
-  margin: 10px auto;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 .certificate-text {
   margin: 10px auto;
@@ -853,6 +855,7 @@ body {
   color: #2c2783;
   letter-spacing: 2px;
   word-spacing: 4px;
+  padding-left: 22px;
   text-transform: uppercase;
 }
 .certificate__sl {
@@ -882,6 +885,7 @@ body {
   color: #2c2783;
   margin-top: 25px;
   margin-left: 11px;
+  padding-bottom: 28px;
   text-transform: uppercase;
 }
 .certificate-premium p {
@@ -909,7 +913,8 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin: 29px 0 0 38px;
+  left: 10px;
+  margin: 0 auto;
   padding: 23px 0;
   text-align: center;
   background: url( images/pattern.png) repeat;
@@ -987,6 +992,7 @@ body {
   width: 100%;
   height: auto;
   background: url(images/NOVABOARD-2.png) no-repeat;
+  background-position: center;
 }
 .footer-box {
   width: 343px;
